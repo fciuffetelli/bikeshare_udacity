@@ -158,15 +158,15 @@ def station_stats(df, city, month, day):
     start_time = time.time()
     print('Filters: City: {}. Month: {}. Day of the week: {}\n'.format(city, month, day))
 
-    common_start_station = df['Start Station'].value_counts().idxmax()
+    common_start_station = df['Start Station'].mode()
     count_common_start_station = (df['Start Station'] == common_start_station).sum()
     print('Most common start station is {}. Count of trips: {}'.
           format(common_start_station, count_common_start_station))
-    common_end_station = df['End Station'].value_counts().idxmax()
+    common_end_station = df['End Station'].mode()
     count_common_end_station = (df['End Station'] == common_end_station).sum()
     print('Most common end station is {}.Count of trips: {}'.
           format(common_start_station, count_common_end_station))
-    common_start_end_station = df['Start_End_Station'].value_counts().idxmax()
+    common_start_end_station = df['Start_End_Station'].mode()
     count_common_start_end = (df['Start_End_Station'] == common_start_end_station).sum()
     print('Most common combination of start and end station is {}. Count of trips {}'.
           format(common_start_end_station, count_common_start_end))
