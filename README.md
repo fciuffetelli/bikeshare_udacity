@@ -9,9 +9,11 @@ This project gives useful statistics about the usage of bikeshare bikes in diffe
 
 *Software needed for project:*
 - Command Line
-- Python 3.6: see Credits section for recommended installation
-- NumPy: see Credits section for recommended installation
-- Pandas: see Credits section for recommended installation
+- Python 3.6
+- NumPy
+- Pandas
+
+>Recommended installation of Python 3.6, NumPy, and Pandas: [Anaconda](https://www.anaconda.com/products/individual#windows)
 
 
 *Main functions:*
@@ -36,5 +38,3 @@ Files used for project is bikeshare.py - Python code. Additionally, some csv fil
 
 ### Credits
 This project was created as a project in the Udacity Programming for Data Science with Python. For more information about the course visit:[Udacity Programming for Data Science with Python](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
-
-Installation of Python 3.6, NumPy, and Pandas: [Anaconda](https://www.anaconda.com/products/individual#windows)
