@@ -16,19 +16,19 @@ This project gives useful statistics about the usage of bikeshare bikes in diffe
 
 *Main functions:*
 
-**1. get_filters:** function gets input form the user to filter data being analyzed. User selects city, month, and day of the week.
+> **get_filters:** function gets input form the user to filter data being analyzed. User selects city, month, and day of the week.
 
-**2. load_data:** function takes as input the filter specified by user and creates a pandas DataFrame :bar_chart:
+> **load_data:** function takes as input the filter specified by user and creates a pandas DataFrame :bar_chart:
 
-**3. time_stats:** Display statistics on travel times. Provides input into the month, day, and hour with most trips. Also provides the count of trips for each :calendar::clock130:
+> **time_stats:** Display statistics on travel times. Provides input into the month, day, and hour with most trips. Also provides the count of trips for each :calendar::clock130:
 
-**4. station_stats:** Displays statistics on the most popular stations to start, end, and combination start to end a trip. Provides count of trips for each :station::bicyclist:
+> **station_stats:** Displays statistics on the most popular stations to start, end, and combination start to end a trip. Provides count of trips for each :station::bicyclist:
 
-**5. trip_duration_stats:** Displays statistics on the total and average trip duratio :watch::chart_with_upwards_trend:
+> **trip_duration_stats:** Displays statistics on the total and average trip duratio :watch::chart_with_upwards_trend:
 
-**6. user_stats:**  Displays statistics on users including count of user types, count of user gender, and youngest, oldest, and most common riders :couple:
+> **user_stats:**  Displays statistics on users including count of user types, count of user gender, and youngest, oldest, and most common riders :couple:
 
-**7. display_data:** gives user option see to raw data.
+> **display_data:** gives user option see to raw data.
 
 
 ### Files used
